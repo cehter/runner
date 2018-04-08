@@ -4,7 +4,6 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/map">Map</router-link>
-      <router-link to="/mapFoo">MapFoo</router-link>
     </div>
     <router-view/>
   </div>
@@ -20,7 +19,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 15px;
 }
 
 #nav a {

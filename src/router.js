@@ -3,7 +3,6 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Map from "./views/Map.vue";
-import MapFoo from "./views/MapFoo.vue";
 
 Vue.use(Router);
 
@@ -23,11 +22,6 @@ export default new Router({
       path: "/map",
       name: "map",
       component: Map
-    },
-    {
-      path: "/mapFoo",
-      name: "mapFoo",
-      component: MapFoo
     }
   ]
 });
